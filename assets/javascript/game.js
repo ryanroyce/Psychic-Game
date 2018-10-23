@@ -18,7 +18,7 @@ var guessesLeftCount=defaultguessesLeft;
 var compChoice = function() {
 	randomLetter=alphabet[Math.floor(Math.random()*alphabet.length)]
 	return randomLetter;
-}
+}  
 
 // function to insert wins, losses, guesses and guesses left into html page
 var showWinsAndLosses=function() {
